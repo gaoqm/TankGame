@@ -38,8 +38,8 @@ public class Recorder {
     private static BufferedWriter bw1 = null;
     private static BufferedWriter bw2 = null;
     private static BufferedReader br = null;
-    private static String recordFile_1 = "E:\\SourceCodeAndScript\\JavaProject\\TankGame\\GameRecord\\myRecord_1.txt";
-    private static String recordFile_2 = "E:\\SourceCodeAndScript\\JavaProject\\TankGame\\GameRecord\\myRecord_2.txt";
+    private static String recordFile_1 = "E:\\GitRepository\\TankGame\\GameRecord\\myRecord_1.txt";
+    private static String recordFile_2 = "E:\\GitRepository\\TankGame\\GameRecord\\myRecord_2.txt";
     //编写一个get方法，返回记录游戏数据的文件(recordFile_2)路径
     public static String getRecordFile_2() {
         return recordFile_2;
